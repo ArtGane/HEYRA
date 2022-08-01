@@ -1,6 +1,5 @@
 from xml.dom import minidom
 
-from rand.rand import rand
 from write.save import save
 
 
@@ -15,7 +14,7 @@ def write(listInfos):
         productChild = root.createElement('')
         productChild.setAttribute('nom', 'nom site')
         productChild.setAttribute('mail', 'mail utilise')
-        productChild.setAttribute('pwd', rand())
+        productChild.setAttribute('pwd', 'mdp genere')
 
         xml.appendChild(productChild)
         xml_str = root.toprettyxml(indent="\t")
