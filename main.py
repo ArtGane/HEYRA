@@ -1,4 +1,4 @@
-from rand.rand import rand
+from user.rand import rand
 from write.write import write
 from getInfos.info import info
 

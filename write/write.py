@@ -14,7 +14,7 @@ def write(listInfos):
         productChild = root.createElement('')
         productChild.setAttribute('nom', 'nom site')
         productChild.setAttribute('mail', 'mail utilise')
-        productChild.setAttribute('pwd', 'mdp genere')
+        productChild.setAttribute('pwd', '')
 
         xml.appendChild(productChild)
         xml_str = root.toprettyxml(indent="\t")

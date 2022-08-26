@@ -1,5 +1,5 @@
 # Récupérer infos site
-from rand.rand import rand
+from user.rand import rand
 
 
 def info():

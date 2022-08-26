@@ -1,4 +1,4 @@
 <?xml version="1.0" ?>
 <heyra>
-	< nom="nom site" mail="mail utilise" pwd="mdp genere"/>
+	<nom = "nom site" mail="mail utilise" pwd="mdp genere"/>
 </heyra>
